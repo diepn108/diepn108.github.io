@@ -1,16 +1,17 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Not a Poet — Just an Engineer Figuring It Out
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Ngoc Diep Nguyen, an Electrical Engineering student passionate about problem-solving, systems thinking, and the invisible forces that power our world.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Grounded in a deep interest in RF systems, NDE, and grid control, I bring that passion into my role as PR Chair of ISU IEEE Chapter 2025–26.
+- Rooted in my Vietnamese heritage, I value family, resilience, and community — which I carry into my role as Vice President of VISA 2025–26.
+- Recharging through yoga and badminton, I stay balanced and focused in both study and life.
 
-What else do you need?
+I came into EE not because I had it all figured out — but because I didn't. I followed the questions that challenged me most, and I found myself fascinated by fields like electromagnetism and power systems.
 
-### My story
+This blog is part journal, part playground — a space where I share what I learn, what confuses me, and what excites me about engineering.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Thanks for visiting my site! Enjoy your time here!
