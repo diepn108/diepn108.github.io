@@ -4,7 +4,7 @@ title: Review of Advances in Microwave and Millimetre-Wave NDT&E
 subtitle: Principles and Applications
 gh-badge: [star, fork, follow]
 tags: [NDT&E, microwave, millimetre-wave, material characterization, surface crack detection, imaging, sensing]
-category: NDE
+categories: [nde]
 comments: true
 mathjax: true
 author: Ngoc Diep Nguyen
