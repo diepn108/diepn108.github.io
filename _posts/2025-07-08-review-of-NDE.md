@@ -5,7 +5,7 @@ subtitle: Principles and Applications
 gh-repo: your-username/your-repo
 gh-badge: [star, fork, follow]
 tags: [NDT&E, microwave, millimetre-wave, material characterization, surface crack detection, imaging, sensing]
-categories: NDE
+category: [NDE]
 comments: true
 mathjax: true
 author: Ngoc Diep Nguyen
