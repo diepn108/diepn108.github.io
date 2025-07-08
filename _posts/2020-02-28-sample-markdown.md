@@ -1,100 +1,100 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
+title: Review of Advances in Microwave and Millimetre-Wave NDT&E
+subtitle: Principles and Applications
+gh-repo: your-username/your-repo
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [NDT&E, microwave, millimetre-wave, material characterization, surface crack detection, imaging, sensing]
 comments: true
 mathjax: true
-author: Bill Smith
+author: Your Name
 ---
 
 {: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+This post reviews the paper *Review of advances in microwave and millimetre-wave NDT&E: principles and applications* by Brinker et al., covering key techniques in non-destructive testing and evaluation (NDT&E) using microwave and millimetre-wave technologies.
 
-**Here is some bold text**
+## Introduction
 
-## Here is a secondary heading
+Non-Destructive Testing and Evaluation (NDT&E) inspects materials and structures without causing damage. Microwave and millimetre-wave NDT&E, operating between 300 MHz and 300 GHz, offer high-resolution flaw detection, particularly in dielectric materials. These methods are non-contact, low-power, real-time, and automation-compatible, making them cost-effective. This review explores four key techniques: **material characterization**, **surface crack detection**, **imaging**, and **sensing**.
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+## Material Characterization
 
-Here's a table:
+Material characterization assesses complex permittivity (\(\varepsilon_r\)) and permeability (\(\mu_r\)) to reveal a material’s composition and condition. The real part of permittivity indicates energy storage, while the imaginary part (loss factor) shows energy absorption. Techniques include resonant, transmission/reflection, and imaging methods, sensitive to sample preparation, moisture, and temperature. Outputs include impedance, S-parameters, or Q-factors. Applications range from polymer curing to detecting porosity in ceramics.
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+### Resonant Techniques
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+Resonant techniques measure dielectric properties by analyzing resonance frequency and Q-factor shifts. Key methods include:
 
-How about a yummy crepe?
+1. **Resonant/Re-entrant Cavity**: Highly accurate for low-loss materials but often destructive due to sample shaping requirements.
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
+   ![Re-entrant Cavity](https://www.nature.com/articles/s41598-022-08662-7/figures/1){: .mx-auto.d-block :}
+   *Source: https://www.nature.com/articles/s41598-022-08662-7*
 
-It can also be centered!
+   - **Panel (a)**: 3D cylindrical view with a central post creating a narrow gap for a strong electric field (E-field).
+   - **Panel (b)**: Cross-sectional view showing:
+     - Dimensions: cavity diameter (2b), post diameter (2a), length (l), gap distance (d).
+     - TE\(_{111}\) mode field distribution: magnetic (H-field) and electric (E-field) fields.
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
+2. **Split-Cylinder Resonator**: Non-destructive for thin materials placed between cavity halves.
 
-Here's a code chunk:
+   ![Split-Cylinder Resonator](https://www.researchgate.net/figure/Cross-sectional-diagram-of-a-split-cylinder-resonator_fig2_346761871){: .mx-auto.d-block :}
+   *Source: https://www.researchgate.net/figure/Cross-sectional-diagram-of-a-split-cylinder-resonator_fig2_346761871*
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+   - Cross-sectional view showing two cylindrical cavities (height L, radius a) with a thin sample (thickness d) between them.
+   - Coupling loops introduce microwave energy, and resonant frequency shifts determine permittivity.
 
-And here is the same code with syntax highlighting:
+3. **Microstrip Resonator**: Measures resonance shifts when a material is placed on a resonator.
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+   ![Microstrip Ring Resonator](https://www.researchgate.net/figure/Microstrip-ring-resonator-configuration-diagram_fig1_3132115){: .mx-auto.d-block :}
+   *Source: https://www.researchgate.net/figure/Microstrip-ring-resonator-configuration-diagram_fig1_3132115*
 
-And here is the same code yet again but with line numbers:
+   - **Panel (a)**: Ring resonator with capacitive coupling via feedlines.
+   - **Panel (b)**: Two-port setup for S-parameter measurements.
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+4. **Dielectric Resonator**: Suitable for liquids, powders, or thin films.
 
-## Boxes
-You can add notification, warning and error boxes like this:
+   ![Dielectric Resonator](https://www.researchgate.net/figure/Dielectric-resonator-a-Side-view-b-top-view-c-E-field-of-TE-01d-mode-d_fig1_373957053){: .mx-auto.d-block :}
+   *Source: https://www.researchgate.net/figure/Dielectric-resonator-a-Side-view-b-top-view-c-E-field-of-TE-01d-mode-d_fig1_373957053*
 
-### Notification
+   - **Side View**: Shows dielectric disk (diameter D, height H) on a metal post.
+   - **Top View**: Displays field patterns for various resonant modes.
 
-{: .box-note}
-**Note:** This is a notification box.
+5. **Open Resonator**: Non-contact, broadband testing using two reflectors.
 
-### Warning
+   ![Open Resonator](https://www.researchgate.net/figure/Open-resonator-system-for-reflectarray-elements-characterization_fig3_230560413){: .mx-auto.d-block :}
+   *Source: https://www.researchgate.net/figure/Open-resonator-system-for-reflectarray-elements-characterization_fig3_230560413*
 
-{: .box-warning}
-**Warning:** This is a warning box.
+   - Features a spherical and plane mirror forming a resonant cavity with a sample at the beam waist.
 
-### Error
+### Transmission and Reflection Techniques
 
-{: .box-error}
-**Error:** This is an error box.
+- **Reflection Methods**: Use open-ended coaxial or waveguide probes. Coaxial probes are ideal for liquids and thin layers, while waveguides suit thick or multilayer materials.
+- **Transmission/Reflection Methods**: Measure S\(_{11}\) and S\(_{21}\) parameters using coaxial lines, waveguides, coplanar waveguides, microstrips, or free-space systems. Free-space methods are non-contact and ideal for high-temperature tests.
 
-## Local URLs in project sites {#local-urls}
+## Surface Crack Detection
 
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
+Microwave and millimetre-wave techniques detect surface-breaking cracks in metals by analyzing scattered waves caused by disrupted surface currents. Key probes include:
 
-![Crepe](/assets/img/crepe.jpg)
+- **Open-Ended Waveguide Probe**: Uses TE mode to detect cracks perpendicular to current flow.
+- **Open-Ended Coaxial Probe**: Wideband, high-resolution, but sensitive to geometry.
+- **Resonant Probes**: Detect cracks via resonant frequency shifts using split-ring resonators or microstrip lines.
 
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
+## Imaging
 
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
+Microwave and millimetre-wave imaging maps electromagnetic properties like permittivity, permeability, or reflectivity. Techniques include:
 
-<details markdown="1">
-<summary>Click here!</summary>
-Here you can see an **expandable** section
-</details>
+- **Near-Field Imaging**: High-resolution flaw detection using probes like waveguides or coaxial lines.
+- **Far-Field Imaging**: Uses lens antennas for thick structures at millimetre-wave frequencies.
+- **Synthetic Aperture Radar (SAR)**: Simulates a large aperture for high-resolution 2D/3D imaging. Advanced methods like Piecewise SAR and Wiener-filter Layered SAR handle multilayered structures.
+
+## Sensors and Sensing
+
+Sensors measure parameters like temperature, strain, or dielectric properties. Categories include:
+
+- **Transmission Media Probes**: Coaxial cables for strain sensing; waveguides for thickness or corrosion detection.
+- **Wired Solutions**: Modulated scatter technique probes and microstrip patch antennas for embedded sensing.
+- **Wireless Passive Sensors**: Frequency selective surfaces and chipless RFID tags for battery-free sensing of cracks, humidity, or temperature.
+
+## Conclusion
+
+Microwave and millimetre-wave NDT&E techniques offer versatile, high-resolution solutions for material characterization, crack detection, imaging, and sensing. Advances in miniaturization, algorithms, and sensor design continue to expand their industrial applications.
