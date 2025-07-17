@@ -27,7 +27,7 @@ Resonant techniques measure dielectric properties by analyzing resonance frequen
 
 1. **Resonant/Re-entrant Cavity**: Highly accurate for low-loss materials but often destructive due to sample shaping requirements.
 
-   ![Re-entrant Cavity](https://www.nature.com/articles/s41598-022-08662-7/figures/1){: .mx-auto.d-block :}
+   ![Re-entrant Cavity](/assets/img/Fig1.png)
    *Source: https://www.nature.com/articles/s41598-022-08662-7*
 
    - **Panel (a)**: 3D cylindrical view with a central post creating a narrow gap for a strong electric field (E-field).
@@ -37,7 +37,7 @@ Resonant techniques measure dielectric properties by analyzing resonance frequen
 
 2. **Split-Cylinder Resonator**: Non-destructive for thin materials placed between cavity halves.
 
-   ![Split-Cylinder Resonator](https://www.researchgate.net/figure/Cross-sectional-diagram-of-a-split-cylinder-resonator_fig2_346761871){: .mx-auto.d-block :}
+   ![Split-Cylinder Resonator](/assets/img/Fig2.img)
    *Source: https://www.researchgate.net/figure/Cross-sectional-diagram-of-a-split-cylinder-resonator_fig2_346761871*
 
    - Cross-sectional view showing two cylindrical cavities (height L, radius a) with a thin sample (thickness d) between them.
@@ -45,7 +45,7 @@ Resonant techniques measure dielectric properties by analyzing resonance frequen
 
 3. **Microstrip Resonator**: Measures resonance shifts when a material is placed on a resonator.
 
-   ![Microstrip Ring Resonator](https://www.researchgate.net/figure/Microstrip-ring-resonator-configuration-diagram_fig1_3132115){: .mx-auto.d-block :}
+   ![Microstrip Ring Resonator](/assets/img/Fig3.img)
    *Source: https://www.researchgate.net/figure/Microstrip-ring-resonator-configuration-diagram_fig1_3132115*
 
    - **Panel (a)**: Ring resonator with capacitive coupling via feedlines.
@@ -53,7 +53,7 @@ Resonant techniques measure dielectric properties by analyzing resonance frequen
 
 4. **Dielectric Resonator**: Suitable for liquids, powders, or thin films.
 
-   ![Dielectric Resonator](https://www.researchgate.net/figure/Dielectric-resonator-a-Side-view-b-top-view-c-E-field-of-TE-01d-mode-d_fig1_373957053){: .mx-auto.d-block :}
+   ![Dielectric Resonator](/assets/img/fig4.img)
    *Source: https://www.researchgate.net/figure/Dielectric-resonator-a-Side-view-b-top-view-c-E-field-of-TE-01d-mode-d_fig1_373957053*
 
    - **Side View**: Shows dielectric disk (diameter D, height H) on a metal post.
@@ -61,7 +61,7 @@ Resonant techniques measure dielectric properties by analyzing resonance frequen
 
 5. **Open Resonator**: Non-contact, broadband testing using two reflectors.
 
-   ![Open Resonator](https://www.researchgate.net/figure/Open-resonator-system-for-reflectarray-elements-characterization_fig3_230560413){: .mx-auto.d-block :}
+   ![Open Resonator](/assets/img/fig5.img)
    *Source: https://www.researchgate.net/figure/Open-resonator-system-for-reflectarray-elements-characterization_fig3_230560413*
 
    - Features a spherical and plane mirror forming a resonant cavity with a sample at the beam waist.
