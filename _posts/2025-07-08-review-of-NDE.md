@@ -19,7 +19,7 @@ Non-Destructive Testing and Evaluation (NDT&E) inspects materials and structures
 
 ## Material Characterization
 
-Material characterization assesses complex permittivity (\(\varepsilon_r\)) and permeability (\(\mu_r\)) to reveal a material’s composition and condition. The real part of permittivity indicates energy storage, while the imaginary part (loss factor) shows energy absorption. Techniques include resonant, transmission/reflection, and imaging methods, sensitive to sample preparation, moisture, and temperature. Outputs include impedance, S-parameters, or Q-factors. Applications range from polymer curing to detecting porosity in ceramics.
+Material characterization assesses complex permittivity (εᵣ) and permeability (μᵣ) to reveal a material’s composition and condition. The real part of permittivity indicates energy storage, while the imaginary part (loss factor) shows energy absorption. Techniques include resonant, transmission/reflection, and imaging methods, sensitive to sample preparation, moisture, and temperature. Outputs include impedance, S-parameters, or Q-factors. Applications range from polymer curing to detecting porosity in ceramics.
 
 ### Resonant Techniques
 
