@@ -16,6 +16,8 @@ During my summer in Vietnam, I had the opportunity to intern at the Central Powe
 
 RF Spider is an automatic electric meter data collection system that enables remote meter reading without the need for on-site personnel. Data is transmitted to the central server via communication protocols such as RF, PLC, 3G/4G, LoRa, and NB-IoT. After processing, data is stored in a database system for management, storage, billing support, fault alerts, energy loss tracking, and user notifications via applications.
 
+(/assets/img/Fig1-post3.png)
+
 The system offers key features such as detailed customer management, DCU and router device management, and meter tracking. It provides a visual display of the unit's electrical grid down to each substation, supports grid monitoring, supplies information about substations for timely issue handling based on alerts, and pinpoints customer/device locations needing service. Notably, the solution has demonstrated effectiveness by saving nearly 2,500 workers and over 150 billion VND per year. It also reduces data entry errors, allows high-productivity input, and completes meter reading and billing within one day.
 
 ## 2. RF Spider Data Collection System
