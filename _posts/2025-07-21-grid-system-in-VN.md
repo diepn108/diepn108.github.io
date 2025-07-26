@@ -56,49 +56,59 @@ The electronic meter products, comprising 28 types with various features, are en
 **DT03P-RF:** Direct connection, four-quadrant energy measurement, detects anomalies.
 
 - Specs: 3×230/400V, 3×10A nominal, 3×100A max, class 1.0, RF 408.925 MHz, IP51/54.
+![Type5](/assets/img/Fig8-post3.png)
 
 **DT03P05:** CT connection, supports four-quadrant measurement, RF and UART TTL.
 
 - Specs: 3×(57.7/100–240/415)V, 3×5A nominal, 3×10A max, class 0.5S, IP51/54.
+![Type6](/assets/img/Fig9-post3.png)
 
 **DT03M01:** Multi-rate, CT connection, detects phase/neutral loss, EEPROM storage.
 
 - Specs: 3×(57.7/100–240/415)V, 3×1A nominal, 3×1.2A max, class 0.5S, IP54.
+![Type7](/assets/img/Fig10-post3.png)
 
 **DT03M05:** Indirect meter with 3G/4G and PLC support.
 
 - Specs: 3×5A nominal, 3×10A max, class 0.5S, RF 408.925 MHz (4.8 kbps), IP54.
+![Type8](/assets/img/Fig11-post3.png)
 
 **DT03M10:** Direct meter, supports four-quadrant measurement and advanced comms.
 
 - Specs: 3×230/400V, 3×10A nominal, 3×100A max, class 1.0, RF 408.925 MHz, IP54.
+![Type9](/assets/img/Fig12-post3.png)
 
 ## 4. Data Concentrator Unit (DCU)
 
 The 1-phase DCU collects, stores, and manages data from up to 1000 RF meters per substation. It transmits via 2G/3G/4G and supports standalone operation with firmware updates.
 
 - Specs: 220V ±20%, 50Hz, RF range <400m, -10°C to +70°C, IP54, RS232, LED indicators.
+![DCU](/assets/img/Fig13-post3.png)
 
 ## 5. RF Data Router
 
 The Router gathers meter data from up to 250 RF meters and relays it to the DCU, enhancing coverage and reducing processing load.
 
 - Specs: 220V ±20%, RF 408.925 MHz (4.8 kbps), max power 34.7 dBm, range <400m, -10°C to +70°C, IP54.
+![Router](/assets/img/Fig14-post3.png)
 
 ## 6. RF Signal Repeater Router
 
 Repeats and strengthens RF signals, enabling broader coverage. Supports real-time or scheduled reading and time sync with DCU.
 
 - Specs: 220V, 34.7 dBm, 408.925 MHz, 4.8 kbps, -10°C to +70°C, IP54, 150×76×39 mm, 0.2 kg.
+![Repeater](/assets/img/Fig15-post3.png)
 
 ## 7. Remote Data Collection Modem – RMR Turbojet
 
 A GPRS/3G/4G modem for remote data. Auto-detects meter types, supports push/pull mode, alerts outages, and remote config.
 
 - Specs: RS232/RS485, 220V or 58V, ≤2W, 0–70°C, SIM interface, LED, 150×76×39 mm, GSM antenna.
+![RMR](/assets/img/Fig16-post3.png)
 
 ## 8. Power Quality Monitoring Device – PQM3P
 
 Monitors power quality: kWh, kVarh, voltage, frequency, power factor, etc. Detects anomalies and calculates energy loss.
 
 - Specs: 3×(57.7/100–240/415)V, 5(10)A input, 50Hz ±2.5%, supports 250 RF meters, IP54, -10°C to +70°C.
+![PQM3P](/assets/img/Fig17-post3.png)
