@@ -21,12 +21,16 @@ RF Spider is an automatic electric meter data collection system that enables rem
 The system offers key features such as detailed customer management, DCU and router device management, and meter tracking. It provides a visual display of the unit's electrical grid down to each substation, supports grid monitoring, supplies information about substations for timely issue handling based on alerts, and pinpoints customer/device locations needing service. Notably, the solution has demonstrated effectiveness by saving nearly 2,500 workers and over 150 billion VND per year. It also reduces data entry errors, allows high-productivity input, and completes meter reading and billing within one day.
 
 ## 2. RF Spider Data Collection System
+
 ![RF-mesh](/assets/img/Fig2-post3.png)
+
 The RF Spider data collection system is structured into multiple layers. Each layer includes RF data routers installed at various locations to reduce the data processing load on the DCU (Data Concentrator Unit). Additionally, RF repeater routers are used in transmission to the DCU to enhance efficiency and maintain accuracy during data reading from electric meters.
+
 ![Full System](/assets/img/Fig3-post3.png)
 ## 3. Electronic Meters
 
 The electronic meter products, comprising 28 types with various features, are entirely researched, designed, tested, manufactured, and deployed by CPCEMEC engineers to meet the energy measurement needs of consumers.
+
 ![All types of smart meter](/assets/img/Fig3-post4.png)
 
 ### Single-phase Electronic Meters
@@ -34,21 +38,25 @@ The electronic meter products, comprising 28 types with various features, are en
 **DT01P-RF:** A single-phase, two-wire meter for direct connection, measuring kWh. Supports RF communication, secure data storage via EEPROM, and displays on an LCD.
 
 - Specs: Rated voltage 220V, max current 40A, accuracy class 1, UART TTL/RF communication (408.925 MHz), -25°C to +60°C operation, IP54 protection.
+
 ![Type1](/assets/img/Fig4-post3.png)
 
 **DT01P80-RF:** Measures kWh, current, voltage, power factor. Supports RF, UART TTL, RS232/RS485.
 
 - Specs: 220V, 80A max, 5A nominal, class 1, 408.925 MHz (4.8 kbps), 10–27 dBm, IP51.
+
 ![Type2](/assets/img/Fig5-post3.png)
 
 **DT01M10:** Multi-rate meter with CT connection, measures active/reactive energy in four quadrants, reprogrammable.
 
 - Specs: 220V, 5A nominal, 10A max, class 0.5S, RF 408.925 MHz (4.8 kbps), IP54.
+
 ![Type3](/assets/img/Fig6-post3.png)
 
 **DT01M80:** Direct connection, measures two-way energy, supports configurable TOU rates.
 
 - Specs: 220V, 5A nominal, 80A max, class 1.0S, RF 408.925 MHz (4.8 kbps), IP51/54.
+
 ![Type4](/assets/img/Fig7-post3.png)
 
 ### Three-phase Electronic Meters
@@ -56,26 +64,31 @@ The electronic meter products, comprising 28 types with various features, are en
 **DT03P-RF:** Direct connection, four-quadrant energy measurement, detects anomalies.
 
 - Specs: 3×230/400V, 3×10A nominal, 3×100A max, class 1.0, RF 408.925 MHz, IP51/54.
+
 ![Type5](/assets/img/Fig8-post3.png)
 
 **DT03P05:** CT connection, supports four-quadrant measurement, RF and UART TTL.
 
 - Specs: 3×(57.7/100–240/415)V, 3×5A nominal, 3×10A max, class 0.5S, IP51/54.
+
 ![Type6](/assets/img/Fig9-post3.png)
 
 **DT03M01:** Multi-rate, CT connection, detects phase/neutral loss, EEPROM storage.
 
 - Specs: 3×(57.7/100–240/415)V, 3×1A nominal, 3×1.2A max, class 0.5S, IP54.
+
 ![Type7](/assets/img/Fig10-post3.png)
 
 **DT03M05:** Indirect meter with 3G/4G and PLC support.
 
 - Specs: 3×5A nominal, 3×10A max, class 0.5S, RF 408.925 MHz (4.8 kbps), IP54.
+
 ![Type8](/assets/img/Fig11-post3.png)
 
 **DT03M10:** Direct meter, supports four-quadrant measurement and advanced comms.
 
 - Specs: 3×230/400V, 3×10A nominal, 3×100A max, class 1.0, RF 408.925 MHz, IP54.
+
 ![Type9](/assets/img/Fig12-post3.png)
 
 ## 4. Data Concentrator Unit (DCU)
@@ -83,6 +96,7 @@ The electronic meter products, comprising 28 types with various features, are en
 The 1-phase DCU collects, stores, and manages data from up to 1000 RF meters per substation. It transmits via 2G/3G/4G and supports standalone operation with firmware updates.
 
 - Specs: 220V ±20%, 50Hz, RF range <400m, -10°C to +70°C, IP54, RS232, LED indicators.
+
 ![DCU](/assets/img/Fig13-post3.png)
 
 ## 5. RF Data Router
@@ -90,6 +104,7 @@ The 1-phase DCU collects, stores, and manages data from up to 1000 RF meters per
 The Router gathers meter data from up to 250 RF meters and relays it to the DCU, enhancing coverage and reducing processing load.
 
 - Specs: 220V ±20%, RF 408.925 MHz (4.8 kbps), max power 34.7 dBm, range <400m, -10°C to +70°C, IP54.
+
 ![Router](/assets/img/Fig14-post3.png)
 
 ## 6. RF Signal Repeater Router
@@ -97,6 +112,7 @@ The Router gathers meter data from up to 250 RF meters and relays it to the DCU,
 Repeats and strengthens RF signals, enabling broader coverage. Supports real-time or scheduled reading and time sync with DCU.
 
 - Specs: 220V, 34.7 dBm, 408.925 MHz, 4.8 kbps, -10°C to +70°C, IP54, 150×76×39 mm, 0.2 kg.
+  
 ![Repeater](/assets/img/Fig15-post3.png)
 
 ## 7. Remote Data Collection Modem – RMR Turbojet
@@ -104,6 +120,7 @@ Repeats and strengthens RF signals, enabling broader coverage. Supports real-tim
 A GPRS/3G/4G modem for remote data. Auto-detects meter types, supports push/pull mode, alerts outages, and remote config.
 
 - Specs: RS232/RS485, 220V or 58V, ≤2W, 0–70°C, SIM interface, LED, 150×76×39 mm, GSM antenna.
+
 ![RMR](/assets/img/Fig16-post3.png)
 
 ## 8. Power Quality Monitoring Device – PQM3P
@@ -111,4 +128,5 @@ A GPRS/3G/4G modem for remote data. Auto-detects meter types, supports push/pull
 Monitors power quality: kWh, kVarh, voltage, frequency, power factor, etc. Detects anomalies and calculates energy loss.
 
 - Specs: 3×(57.7/100–240/415)V, 5(10)A input, 50Hz ±2.5%, supports 250 RF meters, IP54, -10°C to +70°C.
+
 ![PQM3P](/assets/img/Fig17-post3.png)
