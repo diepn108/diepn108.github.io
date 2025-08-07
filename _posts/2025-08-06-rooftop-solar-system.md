@@ -9,8 +9,6 @@ comments: true
 mathjax: true
 ---
 
-## From SEMS to DERMS – Managing Distributed Renewable Energy Resources 
-
 During my one-month internship at CPC EMEC, I had the opportunity to collaborate with the team on researching and writing a paper about the **Solar Energy Management System (SEMS)**. While working on that IEEE paper, I came to realize that rooftop solar systems in Vietnam face several limitations and challenges that need to be addressed. This sparked my interest in exploring how similar systems are managed in the United States, leading me to study SEMS in the U.S. and eventually the more advanced **Distributed Energy Resource Management Systems (DERMS)**.
 
 ---
