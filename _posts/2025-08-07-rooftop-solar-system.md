@@ -28,8 +28,6 @@ To address these challenges, **CPC EMEC introduced the Solar Energy Management S
 
 This system provides an effective smart grid management solution, ensuring timely power delivery during disruptions and enabling efficient monitoring of distributed energy sources. As a result, the system has seen many real-life applications in recent months.
 
----
-
 ## 2. Effective Management of Renewable Energy in the U.S.: The Rise of DERMS
 
 Meanwhile, in the United States, **Distributed Energy Resource Management Systems (DERMS)** are being widely deployed to manage increasingly complex energy networks. Key capabilities include:
@@ -60,8 +58,6 @@ Meanwhile, in the United States, **Distributed Energy Resource Management System
 - Ensures vendor-neutral interoperability via IEEE 2030.5 and OpenFMB  
 - _Example_: **FAST-DERMS**, **ADMS Test Bed**, **Community DER Integration**
 
----
-
 ## 3. Selected DERMS Projects by NREL (U.S.)
 
 - **Basalt Vista Project**: Real-time power flow optimization for community DERs in Colorado  
@@ -73,15 +69,11 @@ Meanwhile, in the United States, **Distributed Energy Resource Management System
 - **Resilience-Oriented Cellular Grid**: Microgrid design for rural energy resilience  
 - **FAST-DERMS**: Secure, scalable architecture for full-spectrum DER management
 
----
-
 ## 4. Key Takeaways
 
 - Vietnam’s SEMS is a strong step toward rooftop solar integration, yet lacks predictive and market-based control seen in U.S. DERMS  
 - U.S. DERMS implementations focus on intelligent control, automation, and real-time optimization of DERs  
 - Coordination between grid operators and consumers through **MPC + real-time control** is crucial for reliable distributed power systems  
-
----
 
 ## 5. References
 
@@ -90,5 +82,3 @@ Meanwhile, in the United States, **Distributed Energy Resource Management System
 - CPC EMEC SEMS Platform (Vietnam)  
 - [IEEE Xplore Digital Library](https://ieeexplore.ieee.org)  
 - IEEE 2030.5 and OpenFMB Protocol Specifications  
-
----
