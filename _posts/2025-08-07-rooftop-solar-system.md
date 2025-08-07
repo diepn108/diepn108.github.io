@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Rooftop Solar Power Systems and DERMS: A Comparative Study between Vietnam and the United States
-subtitle: From SEMS to DERMS – Managing Distributed Renewable Energy Resources
-gh-badge: [star, fork, follow]
-tags: [solar, DERMS, SEMS, Vietnam, US, smart grid, distributed energy, energy management]
+title: "Solar Study: SEMS and DERMS in Vietnam and the U.S."
+subtitle: "From Rooftop Challenges in Vietnam to Smart Grid Solutions in the U.S."
+author: Ngoc Diep Nguyen
+tags: [solar energy, SEMS, DERMS, smart grid, CPCEMEC, Vietnam, renewable energy]
 categories: [grid-control]
 comments: true
 mathjax: true
-author: Ngoc Diep Nguyen
 ---
 
 ## From SEMS to DERMS – Managing Distributed Renewable Energy Resources  
